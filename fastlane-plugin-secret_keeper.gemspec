@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'daniell.jankowskii@gmail.com'
 
   spec.summary       = 'secret_keeper is a wrapped on keychain access.'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-secret_keeper"
+  spec.homepage      = "https://github.com/mollyIV/fastlane-plugin-secret_keeper"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)

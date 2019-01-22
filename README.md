@@ -39,11 +39,11 @@ It returns password as a plain text.
 ### ➖ remove_item_from_keychain
 
 ``` ruby
-remove_item_to_keychain	# Removes the credentials from the keychain on behalf of the user
+remove_item_from_keychain	# Removes the credentials from the keychain on behalf of the user
 ```
 
 ``` ruby
-remove_item_to_keychain(
+remove_item_from_keychain(
       item_name: "personal-access-token", # Item name to be removed from the keychain
     )
 ```
